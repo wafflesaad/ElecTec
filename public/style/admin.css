@@ -1,0 +1,142 @@
+#admin{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+#electec{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.headings{
+    color: #634b66;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headings h1{
+    margin: 0;
+
+}
+
+.headings img{
+    width: 25%;
+    height: auto;
+}
+
+#center{
+    background-color: rgba(232, 159, 232, 0.473);
+    width: auto;
+    border-radius: 20px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.45);
+}
+
+.fieldConts{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    width: 19.5%;
+    border-radius: 10px;
+    width: 50%;
+    height: 50vh;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 60%;
+}
+
+#formbtn{
+    background-color: #634b66;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+    height: 7vh;
+    font-size: 1rem;
+    font-weight: bold;
+    border-color: none;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.45);
+}
+
+#formbtn:hover{
+    color: black;
+    background-color: #d6f9dd;
+    border: none;
+}
+
+#formtxt{
+    margin: 20px;
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: rgb(227, 227, 227);
+}
+
+.fieldConts h1{
+    margin: 0;
+    margin-top: 50px;
+}
+
+.btns{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e639477d;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 70vh;
+}
+
+#center button{
+    background-color: #634b66;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+    height: 13vh;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: px;
+    border-color: none;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.45);
+
+}
+
+#center button:hover{
+    color: black;
+    background-color: #d6f9dd;
+    border: none;
+}
+
+.bitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#endElec{
+    margin-top: 25px !important;
+}
+

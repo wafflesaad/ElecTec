@@ -1,0 +1,20 @@
+{
+  "name": "electec",
+  "version": "1.0.0",
+  "description": "Election Dapp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saad",
+  "license": "ISC",
+  "dependencies": {
+    "alchemy-sdk": "^3.1.0",
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "web3": "^4.3.0"
+  }
+}

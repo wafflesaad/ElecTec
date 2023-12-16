@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin View</title>
+    <link rel="stylesheet" href="style/admin.css">
+</head>
+<body>
+    <div class="headings">
+        <img src="images/logo.png" alt="Electec">
+        <h1 id="admin">Admin Screen</h1>
+    </div>
+    <div id="center">
+        <div id="candidates" class="fieldConts">
+            <h1>Add Candidates</h1>
+            
+            <form id="cform" action="/addCandidate" method="post">
+                <input id="formtxt" type="text" name="candidateName" placeholder="Candidate Name">
+                <input id="formbtn" type="submit" value="Add">
+                
+            </form>
+            <p id="confirmAdd"></p>
+        </div>
+        <div class="btns">
+            <div class="bitem">
+                <button id="endElec">End Election</button>
+                <p id="endElecP"></p>
+            </div>
+            <div class="bitem">
+                <button id="getVoters">Get Voters</button>
+                <p id="getVotersP"></p>
+            </div>
+            <div class="bitem">
+                <button id="getCandidates">Get Candidates</button>
+                <p id="getCandidatesP"></p>
+            </div>
+            <div class="bitem">
+                <button id="getWinner">Get Winner</button>
+                <p id="getWinnerP"></p>
+            </div>
+        </div>
+
+        <script src="scripts/admin.js"></script>
+    </div>
+</body>
+</html>
